@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tarea 2</string>
+    <string name="item1">Agregar platillo</string>
+    <string name="item2">Borrar platillo</string>
+    <string name="item3">Editar pedido</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="your_name">User Name</string>
+    <string name="home">Home</string>
+
+</resources>

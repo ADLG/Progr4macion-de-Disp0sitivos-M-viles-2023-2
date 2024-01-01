@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuR">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName5"
+        app:layout_constraintVertical_bias="0.707"
+        tools:layout_editor_absoluteX="5dp">
+
+        <ImageView
+            android:id="@+id/imgPlatillo5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/coca" />
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+            android:layout_gravity="end"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/namePlatillo5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Coca cola"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv15"
+                android:layout_width="120dp"
+                android:layout_height="18dp"
+                android:layout_below="@id/namePlatillo5"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/rating_orange_small" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv15"
+                android:layout_marginTop="5dp"
+                android:text="$10 | Bebida Recomendada"
+                android:textColor="#2e2e2e"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/btncoca"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#FF8500"
+
+                android:text="Agregar"
+                android:textColor="#fff"
+                android:textSize="11dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName5"
+        app:layout_constraintVertical_bias="0.133"
+        tools:layout_editor_absoluteX="5dp">
+
+        <ImageView
+            android:id="@+id/imgPlatillo2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/pepsi" />
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+            android:layout_gravity="end"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/namePlatillo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Pepsi"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv12"
+                android:layout_width="120dp"
+                android:layout_height="18dp"
+                android:layout_below="@id/namePlatillo2"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/rating_orange_small" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv12"
+                android:layout_marginTop="5dp"
+                android:text="$10 | Bebida Recomendada"
+                android:textColor="#2e2e2e"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/btnpepsi"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#FF8500"
+
+                android:text="Agregar"
+                android:textColor="#fff"
+                android:textSize="11dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="183dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Menu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991"
+        tools:layout_editor_absoluteX="5dp">
+
+        <ImageView
+            android:id="@+id/imgPlatillo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/espagueti" />
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+            android:layout_gravity="end"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/namePlatillo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Espagueti"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="120dp"
+                android:layout_height="18dp"
+                android:layout_below="@id/namePlatillo"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/rating_orange_small" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv1"
+                android:layout_marginTop="5dp"
+                android:text="$25 | Platillo Recomendado"
+                android:textColor="#2e2e2e"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/btnespa"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#FF8500"
+
+                android:text="Agregar"
+                android:textColor="#fff"
+                android:textSize="11dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginStart="4dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421">
+
+        <ImageView
+            android:id="@+id/imgPlatillo4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/hamburguesa" />
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+            android:layout_gravity="end"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/namePlatillo4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Hamburguesa"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv14"
+                android:layout_width="120dp"
+                android:layout_height="18dp"
+                android:layout_below="@id/namePlatillo4"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/rating_orange_small" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv14"
+                android:layout_marginTop="5dp"
+                android:text="$45 | Platillo Recomendado"
+                android:textColor="#2e2e2e"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/btnham"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#FF8500"
+
+                android:text="Agregar"
+                android:textColor="#fff"
+                android:textSize="11dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:onClick="home"
+        android:text="Logout"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/principal"
+        android:layout_width="101dp"
+        android:layout_height="55dp"
+        tools:context=".MenuR"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="-5dp">
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/drawerheader"
+            app:menu="@menu/drawermenu" />
+
+        <!-- <Button
+            android:id="@+id/btdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" /> -->
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+    <ImageButton
+        android:id="@+id/imagecar"
+        android:layout_width="77dp"
+        android:layout_height="59dp"
+        android:onClick="carrito"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/carrito" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
